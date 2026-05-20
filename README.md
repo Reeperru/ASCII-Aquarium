@@ -81,7 +81,7 @@ This firmware is built for the [ESP32-2432S028R "Cheap Yellow Display" board](ht
 Other CYD-style boards may look similar but use different display, touch, or SD
 hardware.
 
-## 3D Printed CYD Cases
+## 3D Printed 2.8" CYD Cases
 - Basic snapfit case by PowerPill.Prints
 - [CYD Desk Buddy by annaglyph](https://makerworld.com/en/models/2787810) 
 

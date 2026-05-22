@@ -135,21 +135,26 @@ This build can also use a 50 mm beam splitter cube to give the aquarium a little
 
 A beam splitter cube is made from two glass prisms joined together with a partially reflective diagonal layer inside. When the CYD screen shines into the cube, some of that light passes through and some of it reflects off the internal 45-degree surface. To your eyes, the aquarium appears to hover inside the cube instead of just sitting flat on the display. It is basically a tiny optical tide pool.
 
-- Use the 50 mm cube size for this printed stand.
-
-- Handle the cube by the edges and wipe fingerprints with a clean micro-fiber cloth. Smudges are the enemy of premium fish.
-
-- Seat the cube squarely in the holder so the clear face points toward the viewer.
-
-- Keep the display bright and the surrounding room a little dimmer if you want the fish to really pop.
-
-- A dark base or darker background behind the cube helps the reflection look cleaner.
-
-- If the image looks faint, doubled, or not quite centred, rotate or flip the cube and try again. Beam splitters can be a bit fin-icky about orientation.
-
 If using the clock with the beam splitter cube, you will need to enable “flip clock” in the clock style settings window.
 
-
+<table>
+  <tr>
+    <td width="50%" valign="top">
+<p>• Use the 50 mm cube size for this printed stand.</p>
+<p>• Handle the cube by the edges and wipe fingerprints with a clean micro-fiber cloth. Smudges are the enemy of premium fish.</p>
+<p>• Seat the cube squarely in the holder so the clear face points toward the viewer.</p>
+<p>• Keep the display bright and the surrounding room a little dimmer if you want the fish to really pop.</p>
+<p>• A dark base or darker background behind the cube helps the reflection look cleaner.</p>
+<p>• If the image looks faint, doubled, or not quite centred, rotate or flip the cube and try again. Beam splitters can be a bit fin-icky about orientation.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img
+        src="https://github.com/user-attachments/assets/36b6a33d-72d2-48c5-ae38-65e8de0e304c"
+        alt="ASCII Aquarium Holo Cube"
+        width="100%">
+    </td>
+  </tr>
+</table>
 
 The cube does not create the animation by itself; the CYD is still doing all the swimming, bubbling, clocking, and snack-chasing. The cube just splits and redirects the light so the tank feels more like a miniature glass aquarium and less like a bare screen. No water required, unless you count the tears of anyone who bought a real aquarium and then learned about water changes.
 

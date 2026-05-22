@@ -7,7 +7,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "firmware/ascii-aquarium-cyd-v1.67.bin",
+          "path": "firmware/ascii-aquaruim-cyd-v1.67.bin",
           "offset": 0
         }
       ]

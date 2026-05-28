@@ -1,37 +1,35 @@
-// CYD (ESP32-2432S028R / Cheap Yellow Display) setup for TFT_eSPI
-// Copy this file to:
-//   /Users/kertgartner/Documents/Arduino/libraries/TFT_eSPI/User_Setup.h
-// Keep the stock User_Setup_Select.h (or restore backup) so TFT_eSPI can load
-// its driver command definitions correctly.
+// --- CLEAN SLATE CYD ST7789 SETUP ---
 
-#define USER_SETUP_INFO "ESP32 CYD ILI9341 320x240"
+#define USER_SETUP_INFO "ESP32 CYD ST7789 240x320"
 #define USER_SETUP_ID 2432
 
-// Display driver
-#define ILI9341_DRIVER
+// 1. The Screen Driver
+#define ST7789_DRIVER
 
-// Optional colour order (many CYD boards use BGR with ILI9341)
+// 2. Color Settings (Forcing Inversion OFF)
+#define TFT_INVERSION_OFF 
 #define TFT_RGB_ORDER TFT_BGR
 
-// ESP32 TFT pin mapping (common ESP32-2432S028R board)
+// 3. The Pins
 #define TFT_MISO 12
 #define TFT_MOSI 13
 #define TFT_SCLK 14
 #define TFT_CS   15
 #define TFT_DC   2
-#define TFT_RST  4
+#define TFT_RST  -1   
 #define TFT_BL   21
 #define TFT_BACKLIGHT_ON HIGH
 
-// Display geometry and speed
-#define TFT_WIDTH  320
-#define TFT_HEIGHT 240
+// 4. The Screen Size
+#define TFT_WIDTH  240  
+#define TFT_HEIGHT 320  
 
-#define SPI_FREQUENCY       40000000
+// 5. The Speeds
+#define SPI_FREQUENCY       27000000
 #define SPI_READ_FREQUENCY  20000000
 #define SPI_TOUCH_FREQUENCY 2500000
 
-// Fonts
+// 6. The Fonts
 #define LOAD_GLCD
 #define LOAD_FONT2
 #define LOAD_FONT4
